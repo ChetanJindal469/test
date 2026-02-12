@@ -1,0 +1,355 @@
+{
+  "settings": {
+    "title": "Settings",
+    "general": {
+      "title": "General Settings",
+      "companyManagement": "Company Management",
+      "companyInfo": "Company Information",
+      "emailSetting": "Email Setting",
+      "seasons": "Seasons",
+      "unit": "Unit",
+      "department": "Department",
+      "role": "Role"
+    },
+    "booking": {
+      "title": "Booking Settings",
+      "booking": "Booking",
+      "optionDates": "Option Dates",
+      "weekdaysWeekend": "Weekdays & Weekend"
+    },
+    "hotel": {
+      "title": "Hotel Settings",
+      "roomManagement": "Room Management",
+      "tower": "Tower",
+      "roomType": "Room Type",
+      "roomViews": "Room Views",
+      "roomStatus": "Room Status",
+      "floor": "Floor",
+      "facilities": "Hotel Facilities",
+      "meals": "Meals",
+      "amenities": "Amenities",
+      "facilitiesList": "Facilities",
+      "operations": "Operations",
+      "shift": "Shift",
+      "material": "material",
+      "taskManager": "Task Manager",
+      "priorityTask": "Priority Task"
+    },
+    "account": {
+      "title": "Account Settings",
+      "financialManagement": "Financial Management",
+      "bankAccount": "Bank Account",
+      "tax": "Tax",
+      "expenseHead": "Expense Head"
+    },
+    "companyInfo": {
+      "title": "Company Information Settings",
+      "tabs": {
+        "propertyWise": "Property Wise",
+        "global": "Global",
+        "transaction": "Transaction"
+      },
+      "form": {
+        "selectProperty": "Select Property",
+        "selectPropertyPlaceholder": "Select Property",
+        "logo": "Logo",
+        "logoAlt": "Logo Preview",
+        "banner": "Banner Image",
+        "bannerAlt": "Banner Preview",
+        "email": "Email",
+        "phone": "Phone",
+        "whatsapp": "WhatsApp",
+        "saveButton": "Save",
+        "propertyFilter": "Filter by Property",
+        "emailHeader": "Email Header",
+        "emailSubject": "Email Subject",
+        "emailBody": "Email Body",
+        "senderName": "Sender Name",
+        "senderEmail": "Sender Email",
+        "uploadLogo": "Upload Logo",
+        "uploadBanner": "Upload Banner"
+      },
+      "table": {
+        "serial": "SL",
+        "templateName": "Template Name",
+        "property": "Property",
+        "actions": "Actions",
+        "view": "View",
+        "edit": "Edit",
+        "createdBy": "Created By",
+        "updatedAt": "Updated At"
+      },
+      "buttons": {
+        "save": "Save",
+        "cancel": "Cancel",
+        "close": "Close",
+        "editTemplate": "Update Template",
+        "viewTemplate": "View Template",
+        "addNew": "Save Template"
+      },
+      "messages": {
+        "successSave": "Settings saved successfully.",
+        "errorSave": "Failed to save settings. Please try again.",
+        "noData": "No templates found.",
+        "deleteConfirm": "Are you sure you want to delete this template?",
+        "uploadSuccess": "File uploaded successfully.",
+        "uploadError": "Failed to upload file."
+      },
+      "placeholders": {
+        "emailPlaceholder": "support@company.com",
+        "search": "Search...",
+        "enterHeader": "Enter email header",
+        "enterSubject": "Enter email subject",
+        "enterSenderName": "Enter sender name"
+      }
+    },
+    "emailSetting": {
+      "title": "Communication Preferences",
+      "saveButton": "Save",
+      "languageSettings": {
+        "title": "Language Settings",
+        "description": "Select your preferred language for each channel"
+      },
+      "channels": {
+        "email": "Email",
+        "whatsapp": "WhatsApp",
+        "sms": "SMS"
+      },
+      "languages": {
+        "english": "English",
+        "arabic": "Arabic"
+      },
+      "messages": {
+        "saveSuccess": "Your preferences have been saved successfully.",
+        "saveError": "Failed to save your preferences. Please try again."
+      }
+    },
+    "seasons": {
+      "title": "Seasons",
+      "form": {
+        "property": "Property",
+        "selectPropertyPlaceholder": "Select Property",
+        "name": "Name",
+        "namePlaceholder": "Enter Season Name",
+        "marginGoal": "Margin Goal",
+        "marginGoalPlaceholder": "Goal (e.g., 100 or 100%)",
+        "fromDate": "From",
+        "toDate": "To",
+        "addButton": "Add",
+        "saveButton": "Save",
+        "validation": {
+          "propertyRequired": "Property is required.",
+          "nameRequired": "Season name is required.",
+          "marginGoalRequired": "Margin Goal is required.",
+          "marginGoalPattern": "Margin Goal must be a number (e.g., 100 or 100%).",
+          "fromDateRequired": "\"From\" date is required.",
+          "toDateRequired": "\"To\" date is required.",
+          "dateMismatch": "\"To\" date must be after \"From\" date."
+        }
+      },
+      "table": {
+        "title": "List",
+        "headers": {
+          "name": "Name",
+          "property": "Property",
+          "marginGoal": "Margin Goal",
+          "from": "From",
+          "to": "To",
+          "actions": "Actions"
+        },
+        "actions": {
+          "edit": "Edit",
+          "delete": "Delete"
+        },
+        "empty": {
+          "title": "No seasons found",
+          "subtitle": "Click \"Add New\" to create your first seasons record."
+        }
+      },
+      "messages": {
+        "addSuccess": "Season added successfully.",
+        "updateSuccess": "Season updated successfully.",
+        "deleteConfirm": "Are you sure you want to delete this season?",
+        "deleteSuccess": "Season deleted successfully.",
+        "error": "An error occurred. Please try again."
+      }
+    },
+    "units": {
+      "title": "Units",
+      "form": {
+        "addButton": "Add",
+        "saveButton": "Save",
+        "unitName": "Unit Name",
+        "unitCode": "Unit Code",
+        "unitNamePlaceholder": "Enter unit name",
+        "unitCodePlaceholder": "Enter unit code",
+        "validation": {
+          "unitNameRequired": "Unit name is required.",
+          "unitCodeRequired": "Unit code is required."
+        }
+      },
+      "table": {
+        "title": "List",
+        "headers": {
+          "serial": "SL",
+          "name": "Name",
+          "code": "Code",
+          "actions": "Actions"
+        },
+        "actions": {
+          "edit": "Edit",
+          "delete": "Delete"
+        },
+        "empty": {
+          "title": "No units found",
+          "subtitle": "Click \"Add New\" to create your first unit record."
+        }
+      },
+      "messages": {
+        "successSave": "Unit saved successfully.",
+        "errorSave": "Failed to save unit. Please try again.",
+        "deleteConfirm": "Are you sure you want to delete this unit?"
+      }
+    },
+    "department": {
+      "title": "Department",
+      "form": {
+        "addButton": "Add",
+        "saveButton": "Save",
+        "nameLabel": "Department Name",
+        "namePlaceholder": "Enter Department Name",
+        "validation": {
+          "nameRequired": "Department name is required."
+        }
+      },
+      "table": {
+        "title": "List",
+        "headers": {
+          "sl": "SL",
+          "name": "Name",
+          "actions": "Actions"
+        },
+        "actions": {
+          "edit": "Edit",
+          "delete": "Delete"
+        },
+        "empty": {
+          "title": "No departments found",
+          "subtitle": "Click \"Add New\" to create your first department record."
+        }
+      },
+      "messages": {
+        "successSave": "Department saved successfully.",
+        "errorSave": "Failed to save department. Please try again.",
+        "deleteConfirm": "Are you sure you want to delete this department?"
+      }
+    },
+    "role": {
+      "title": "Role",
+      "form": {
+        "addButton": "Add",
+        "saveButton": "Save",
+        "departmentLabel": "Department",
+        "departmentPlaceholder": "Select a Department",
+        "nameLabel": "Role Name",
+        "namePlaceholder": "Enter Role Name",
+        "validation": {
+          "departmentRequired": "Department is required.",
+          "nameRequired": "Role name is required."
+        }
+      },
+      "table": {
+        "title": "List",
+        "departmentFilter": "Filter by Department",
+        "headers": {
+          "sl": "SL",
+          "role": "Role",
+          "actions": "Actions"
+        },
+        "actions": {
+          "edit": "Edit",
+          "delete": "Delete"
+        },
+        "empty": {
+          "title": "No roles found",
+          "subtitle": "Click \"Add New\" to create your first role record."
+        }
+      },
+      "messages": {
+        "successSave": "Role saved successfully.",
+        "errorSave": "Failed to save role. Please try again.",
+        "deleteConfirm": "Are you sure you want to delete this role?"
+      }
+    },
+    "optionDate": {
+      "title": "Option Date",
+      "form": {
+        "addButton": "Add",
+        "saveButton": "Save",
+        "propertyLabel": "Property",
+        "propertyPlaceholder": "Select Property",
+        "optionDateLabel": "Option Date",
+        "optionDatePlaceholder": "Enter option date (0-7 days)",
+        "validation": {
+          "propertyRequired": "Property is required.",
+          "optionRequired": "Option date is required."
+        }
+      },
+      "table": {
+        "title": "List",
+        "headers": {
+          "sl": "SL",
+          "property": "Property",
+          "optionDate": "Option Date",
+          "actions": "Actions"
+        },
+        "actions": {
+          "edit": "Edit",
+          "delete": "Delete"
+        },
+        "empty": {
+          "title": "No option dates found",
+          "subtitle": "Click \"Add New\" to create your first option date record."
+        }
+      },
+      "messages": {
+        "successSave": "Option date saved successfully.",
+        "errorSave": "Failed to save option date. Please try again.",
+        "deleteConfirm": "Are you sure you want to delete this option date?"
+      }
+    },
+    "weekdaysWeekend": {
+      "title": "Week Days & Weekend",
+      "form": {
+        "saveButton": "Save",
+        "propertyLabel": "Property",
+        "selectPropertyPlaceholder": "Select Property",
+        "weekendDaysLabel": "Weekend Days",
+        "weekendDaysPlaceholder": "Select Weekend Days",
+        "validation": {
+          "weekendRequired": "Weekend days are required."
+        }
+      },
+      "table": {
+        "title": "List",
+        "headers": {
+          "sl": "SL",
+          "property": "Property",
+          "weekendDays": "Weekend Days",
+          "actions": "Actions"
+        },
+        "actions": {
+          "edit": "Edit"
+        },
+        "empty": {
+          "title": "No week days or weekends found",
+          "subtitle": "Click \"Add New\" to create your first week days and weekend record."
+        }
+      },
+      "messages": {
+        "successSave": "Weekend days updated successfully.",
+        "errorSave": "Failed to save weekend days. Please try again."
+      }
+    }
+  }
+}

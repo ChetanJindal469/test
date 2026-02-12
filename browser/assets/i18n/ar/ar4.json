@@ -1,0 +1,130 @@
+{
+  "salaryCategory": {
+    "pageTitle": "Create Salary Category",
+    "selectCategory": "Select Category",
+    "categoryType": {
+      "eligible": "Eligible",
+      "deduction": "Deduction"
+    },
+    "categoryValueLabel": "Category Value",
+    "categoryValuePlaceholder": "Basic Salary",
+    "button": {
+      "create": "Create",
+      "update": "Update"
+    },
+    "table": {
+      "eligibleHeader": "Eligible",
+      "deductionHeader": "Deduction"
+    }
+  },
+  "salarySlip": {
+    "pageTitle": {
+      "preview": "Salary Slip Preview",
+      "generate": "Generate Salary Slip"
+    },
+    "sectionTitle": {
+      "details": "Salary details",
+      "createStructure": "Create salary structure for employee"
+    },
+    "form": {
+      "employeeIdLabel": "Employee Id",
+      "employeeSearchPlaceholder": "Search by emp id or name",
+      "employeeNameLabel": "Emp name",
+      "employeeNamePlaceholder": "Emp name",
+      "designationLabel": "Designation",
+      "designationPlaceholder": "Designation",
+      "departmentLabel": "Department",
+      "departmentPlaceholder": "Department",
+      "phoneNumberLabel": "Phone number",
+      "phoneNumberPlaceholder": "Phone number",
+      "joiningDateLabel": "Date of joining"
+    },
+    "table": {
+      "earningHeader": "Earning",
+      "deductionHeader": "Deduction",
+      "totalEarning": "Total Earning",
+      "totalDeduction": "Total Deduction",
+      "netSalary": "Net Salary"
+    },
+    "button": {
+      "create": "Create"
+    }
+  },
+  "generateSalary": {
+    "pageTitle": "Generate Salary",
+    "payrollListTitle": "Payroll List",
+    "searchPlaceholder": "Search...",
+    "summary": {
+      "totalEmployee": "Total Employee",
+      "totalPayDays": "Total Pay Days",
+      "selectProperty": "Select Property",
+      "selectMonth": "Select Month"
+    },
+    "button": {
+      "generateAll": "Generate All",
+      "generate": "Generate",
+      "generated": "Generated",
+      "viewSalaryDetails": "View Salary Details",
+      "downloadSalarySlipAlt": "Download Salary Slip"
+    },
+    "table": {
+      "employeeName": "Employee Name",
+      "employeeId": "Employee ID",
+      "totalDays": "Total Days",
+      "paidDays": "Paid Days",
+      "unpaidDays": "Unpaid Days",
+      "monthlySalary": "Monthly Salary",
+      "earnedSalary": "Earned Salary",
+      "totalDeduction": "Total Deduction",
+      "netSalary": "Net Salary",
+      "generatePayslip": "Generate Payslip",
+      "action": "Action",
+      "noDataMessage": "No Payroll Data Found for this filter"
+    }
+  },
+  "viewSalaryAmount": {
+    "pageTitle": "View Salary Amount List",
+    "searchPlaceholder": "Search...",
+    "summary": {
+      "totalEmployee": "Total Employee",
+      "totalPayDays": "Total Pay Days",
+      "selectProperty": "Select Property",
+      "selectMonth": "Select Month"
+    },
+    "table": {
+      "employeeName": "Employee Name",
+      "employeeId": "Employee ID",
+      "department": "Department",
+      "designation": "Designation",
+      "netSalary": "Net Salary",
+      "action": "Action",
+      "noDataMessage": "No Salary Data Found for this filter"
+    },
+    "tooltip": {
+      "viewSalaryDetails": "View Salary Details"
+    }
+  },
+  "mySalaryList": {
+    "pageTitle": "My Salary List",
+    "searchPlaceholder": "Search...",
+    "button": {
+      "filter": "Filter"
+    },
+    "datepicker": {
+      "selectMonth": "Select Month"
+    },
+    "table": {
+      "month": "Month",
+      "grossSalary": "Gross Salary",
+      "totalDeduction": "Total Deduction",
+      "netSalary": "Net Salary",
+      "payableDays": "Payable Days",
+      "action": "Action",
+      "noDataMessage": "No Salary Data Found for this Employee"
+    },
+    "tooltip": {
+      "viewSalaryDetails": "View Salary Details",
+      "downloadSalarySlipAlt": "Download Salary Slip"
+    }
+  }
+}

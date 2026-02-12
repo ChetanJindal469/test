@@ -1,0 +1,463 @@
+{
+  "pmsDashboard": {
+    "title": "PMS لوحة تحكم",
+    "tabs": {
+      "frontOffice": "مكتب الاستقبال",
+      "houseKeeping": "التدبير الفندقي",
+      "accounts": "الحسابات",
+      "hrDashboard": "HR لوحة تحكم",
+      "restaurant": "المطعم",
+      "employee": "الموظف"
+    },
+    "HKDashboard": {
+      "roomStatus": {
+        "clean": "نظيف",
+        "dirty": "متسخ",
+        "cleaningInProgress": "ينظف الآن",
+        "underMaintenance": "تحت الصيانة",
+        "inHouse": "شاغر"
+      },
+      "availableHouseKeeping": {
+        "title": "خدمة التدبير المنزلي المتاحة",
+        "addNewTaskButton": "إضافة مهمة جديدة",
+        "tableHeaders": {
+          "employeeName": "اسم الموظف",
+          "employeeID": "الرقم التسلسلي للموظف",
+          "shift": "الوردية",
+          "assignTask": "إسناد مهمة",
+          "pendingTask": "مهمة معلقة",
+          "ongoingTask": "مهمة جارية",
+          "completedTask": "مهمة مكتملة"
+        },
+        "noDataFound": "لا يوجد بيانات"
+      },
+      "guestRequest": {
+        "title": "طلبات النزلاء والطلبات الخاصة",
+        "tableHeaders": {
+          "room": "الغرفة",
+          "type": "النوع",
+          "dueTime": "موعد الاستحقاق"
+        },
+        "noDataFound": "لا يوجد بيانات"
+      },
+      "lostAndFound": {
+        "title": "المفقودات والمعثورات",
+        "tableHeaders": {
+          "reservationID": "الرقم التسلسلي للحجز",
+          "room": "الغرفة",
+          "notes": "الملاحظات",
+          "date": "التاريخ",
+          "status": "الحالة"
+        },
+        "noDataFound": "لا يوجد بيانات"
+      },
+      "performanceOverview": {
+        "title": "ملخص الأداء",
+        "legend": {
+          "totalTask": "إجمالي المهام",
+          "taskCompleted": "مهمة مكتملة",
+          "overdueTask": "المهام المتأخرة",
+          "pendingTask": "المهام المعلقة"
+        }
+      },
+      "addTask": {
+        "title": "إضافة مهمة",
+        "form": {
+          "employee": {
+            "label": "الموظف",
+            "placeholder": "اختر موظف",
+            "errorMessage": "اختر موظف"
+          },
+          "taskType": {
+            "label": "نوع المهمة",
+            "placeholder": "اختر نوع المهمة",
+            "errorMessage": "اختر نوع المهمة"
+          },
+          "priorityTask": {
+            "label": " مهمة ذات أولوية",
+            "placeholder": " مهمة ذات أولوية",
+            "errorMessage": "اختر مهمة ذات أولوية"
+          },
+          "reservationCode": {
+            "label": "رمز الحجز",
+            "placeholder": "رمز الحجز"
+          },
+          "note": {
+            "label": "ملاحظة",
+            "placeholder": "ملاحظة"
+          }
+        },
+        "button": "إضافة"
+      }
+    },
+    "FRDashboard": {
+      "tabs": {
+        "overview": "نظرة عامة",
+        "checkInCheckOut": "الدخول و الخروج",
+        "frontOfficeReservationDesk": "الاستقبال والحجوزات"
+      },
+      "overview": {
+        "statCards": {
+          "arrival": {
+            "title": "الوصول",
+            "checkedIn": "الدخول"
+          },
+          "departures": {
+            "title": "المغادرة",
+            "checkedOut": "الخروج"
+          },
+          "inHouse": {
+            "title": "داخلي",
+            "occupied": "شاغر"
+          }
+        }
+      },
+      "houseKeeping": {
+        "title": "التدبير الفندقي",
+        "statuses": {
+          "clean": "نظيف",
+          "dirty": "متسخ",
+          "cleaningInProgress": "ينظف الآن",
+          "occupied": "شاغر",
+          "underMaintenance": "تحت الصيانة",
+          "available": "متوفر"
+        }
+      },
+      "reservationStatus": {
+        "title": "حالة الحجز",
+        "total": "الإجمالي",
+        "legend": {
+          "confirmed": "حجز مؤكّد",
+          "inProgress": "قيد التنفيذ",
+          "pending": "معلق"
+        },
+        "table": {
+          "title": "قائمة حالة الحجز",
+          "headers": {
+            "roomType": "نوع الغرفة",
+            "confirmed": "مؤكد",
+            "inProgress": "قيد التنفيذ",
+            "pending": "معلق",
+            "total": "الإجمالي"
+          },
+          "noDataFound": "لا يوجد بيانات"
+        }
+      },
+      "roomOccupancy": {
+        "title": "إشغال الغرف",
+        "summaryLabels": {
+          "totalRoom": "إجمالي الغرف",
+          "occupancy": "الإشغال"
+        },
+        "statusItems": {
+          "completed": "مكتملة",
+          "inProgress": "قيد التنفيذ",
+          "pending": "معلق"
+        },
+        "table": {
+          "title": "قائمة إشغال الغرف",
+          "headers": {
+            "roomType": "نوع الغرفة",
+            "sold": "محجوز",
+            "houseUse": "استخدام داخلي",
+            "complimentary": "مجاني",
+            "available": "متوفر"
+          },
+          "noDataFound": "لا يوجد بيانات"
+        }
+      },
+      "CheckInOut": {},
+      "reservationDesk": {},
+      "revDesk": {
+        "allRooms": "كل الغرف",
+        "guestDetails": "تفاصيل الضيف",
+        "profileCard": {
+          "guestIdLabel": ":الرقم التسلسلي للضيف",
+          "checkedInBadge": "الدخول",
+          "detailLabels": {
+            "phone": "رقم الجوال",
+            "email": "الايميل",
+            "nationality": "الجنسية",
+            "idPassport": "رقم الهوية/جواز السفر"
+          }
+        },
+        "bookingTimeline": {
+          "title": "الجدول الزمني للحجوزات",
+          "items": {
+            "booking": "الحجوزات",
+            "confirmed": "مؤكد",
+            "checkedIn": "الدخول",
+            "due": "مستحق",
+            "checkedOut": "الخروج"
+          }
+        },
+        "paymentSummary": {
+          "title": "ملخص الدفع",
+          "labels": {
+            "totalCharges": "إجمالي المبالغ المستحقة",
+            "taxes": "الضرائب",
+            "paidAmount": "المبلغ المدفوع",
+            "total": "الإجمالي"
+          }
+        },
+        "notesSection": {
+          "title": "ملاحظات / طلبات",
+          "placeholder": "اكتب ملاحظتك هنا"
+        },
+        "actions": {
+          "editBooking": "تعديل الحجز",
+          "details": "التفاصيل"
+        }
+      },
+      "checkInOut": {
+        "formLabels": {
+          "name": "الاسم",
+          "confirmDate": "تأكيد التاريخ",
+          "phoneNumber": "رقم الهاتف",
+          "guestName": "اسم الضيف",
+          "bookingDate": "تاريخ الحجز",
+          "checkInDate": "تاريخ الدخول",
+          "checkOutDate": "تاريخ الخروج",
+          "submitButton": "تأكيد"
+        },
+        "tabs": {
+          "checkIn": "الدخول",
+          "checkOut": "الخروج"
+        },
+        "reservationTableReservationId": "رقم الحجز",
+        "reservationTableEmailId": "الايميل",
+        "reservationTablePhoneNumber": "رقم الهاتف",
+        "reservationTableRoomType": "نوع الغرفة",
+        "reservationTableRoomNumber": "رقم الغرفة",
+        "reservationTableSource": "المصدر",
+        "reservationTableGuest": "الضيف",
+        "reservationTablePrice": "السعر",
+        "reservationTableAction": "الإجراء",
+        "checkInButton": "الدخول",
+        "checkOutButton": "الخروج",
+        "noReservationsFoundMessage": "لا توجد حجوزات",
+        "noCheckOutReservationsFoundMessage": "لا توجد حجوزات"
+      }
+    },
+    "ADashboard": {
+      "financialOverview": {
+        "title": "نظرة عامة مالية",
+        "revenueCard": {
+          "label": "إيرادات الحجوزات",
+          "trendText": "من آخر شهر"
+        },
+        "expenseCard": {
+          "label": "إجمالي المصروفات",
+          "trendText": "من آخر شهر"
+        },
+        "receivablesCard": {
+          "label": "المستحقات غير المحصلة",
+          "trendText": "من آخر شهر"
+        },
+        "payablesCard": {
+          "label": "الالتزامات المستحقة الدفع",
+          "trendText": "من آخر شهر"
+        }
+      },
+      "cashCards": {
+        "cashSummary": {
+          "header": "ملخص الصندوق النقدي",
+          "totalLabel": "الإجمالي"
+        },
+        "received": {
+          "header": "المبلغ المستلم",
+          "totalLabel": "الإجمالي"
+        },
+        "receivable": {
+          "header": "المبالغ المستحقة القبض",
+          "totalLabel": "الإجمالي"
+        },
+        "payable": {
+          "header": "المبالغ المستحقة الدفع",
+          "totalLabel": "الإجمالي"
+        }
+      },
+      "refundsStatus": {
+        "header": "حالة الاسترداد",
+        "tableHeaders": {
+          "refundId": "معرّف الاسترداد",
+          "guestName": "اسم الضيف",
+          "reservationId": "معرّف الحجز",
+          "refundAmount": "قيمة الاسترداد",
+          "paymentMode": "طريقة الدفع",
+          "reason": "السبب",
+          "issuedDate": "تاريخ الإصدار",
+          "status": "الحالة"
+        },
+        "emptyMessage": "لا توجد مبالغ مستردة"
+      },
+      "alertsNotifications": {
+        "header": "التنبيهات والإشعارات",
+        "emptyMessage": "لا توجد تنبيهات"
+      },
+      "taxCompliance": {
+        "header": "الضرائب والامتثال",
+        "vatSummary": {
+          "header": "ملخص الضريبة",
+          "netVatPayableLabel": "صافي الضريبةالمستحقة الدفع",
+          "collectedLabel": "مُحصَّل",
+          "payableVatLabel": "الضريبةالمستحقة الدفع"
+        },
+        "dayEndReport": {
+          "header": "تقرير نهاية اليوم",
+          "tableHeaders": {
+            "section": "القسم",
+            "closingBalance": "(SAR) رصيد الإقفال"
+          },
+          "emptyMessage": "لا توجد بيانات"
+        },
+        "zatcaInvoice": {
+          "header": "Zatca فاتورة",
+          "tableHeaders": {
+            "invoiceNo": "رقم الفاتورة",
+            "date": "التاريخ",
+            "amount": "(SAR) القيمة",
+            "callStatus": "حالة الاتصال",
+            "action": "الاجراء"
+          },
+          "actionLabels": {
+            "viewXml": "XML عرض",
+            "viewQr": "QR عرض"
+          },
+          "statusLabels": {
+            "success": "تم بنجاح",
+            "failed": "فشلت"
+          },
+          "emptyMessage": "ZATCA لا توجد فاتورة"
+        }
+      },
+      "revenueLeakage": {
+        "header": "فقدان الإيرادات",
+        "tableHeaders": {
+          "date": "التاريخ",
+          "department": "القسم",
+          "guest": "الضيف",
+          "leakageType": "نوع الفقد",
+          "expected": "(SAR) المتوقع",
+          "billed": "(SAR) مفوّترة",
+          "loss": "(SAR) خسارة",
+          "status": "الحالة"
+        },
+        "emptyMessage": "لا توجد بيانات فقدان للإيرادات"
+      }
+    },
+    "HRDashboard": {
+      "summaryCards": {
+        "totalEmployees": "إجمالي الموظفين",
+        "onLeaveToday": "في إجازة اليوم",
+        "leaveApplications": "نموذج طلب إجازة",
+        "upcomingBirthday": "أعياد ميلاد قادمة"
+      },
+      "employeeOverview": {
+        "title": "ملخص الموظفين"
+      },
+      "teamAttendance": {
+        "title": "حضور الفريق"
+      },
+      "recentActivity": {
+        "title": "الأنشطة الأخيرة"
+      },
+      "employeeTable": {
+        "title": "الموظفين",
+        "tableHeaders": {
+          "employeeName": "اسم الموظف",
+          "email": "الايميل",
+          "phone": "رقم الجوال",
+          "role": "الدور الوظيفي",
+          "department": "القسم",
+          "joinDate": "تاريخ الانضمام",
+          "status": "الحالة",
+          "actions": "الاجراء"
+        },
+        "emptyMessage": "لا يوجد موظفين"
+      }
+    },
+    "RestaurantDashboard": {
+      "summaryCards": {
+        "totalOrders": "إجمالي الطلبات",
+        "totalRevenue": "إجمالي الإيرادات",
+        "totalTables": "إجمالي الطاولات",
+        "totalCapacity": "إجمالي الإشغال",
+        "bookingRequests": "طلبات الحجوزات",
+        "availableTables": "طاولات متوفرة"
+      },
+      "orderOverview": {
+        "title": "ملخص الطلب"
+      },
+      "tableStatus": {
+        "title": "حالة الطاولة",
+        "status": {
+          "available": "متوفر",
+          "occupied": "شاغر",
+          "reserved": "محجوز",
+          "cleaning": "ينظف"
+        }
+      },
+      "recentOrders": {
+        "title": "طلبات حالية",
+        "tableHeaders": {
+          "orderId": "رقم الطلب",
+          "table": "الطاولة",
+          "items": "العناصر",
+          "amount": "القيمة",
+          "status": "الحالة",
+          "time": "الوقت",
+          "actions": "الاجراء"
+        },
+        "emptyMessage": "لا توجد طلبات"
+      },
+      "menuItems": {
+        "title": "عناصر القائمة",
+        "topSelling": "عناصر أكثر مبيعاً"
+      }
+    },
+    "EmployeeDashboard": {
+      "greeting": "الترحيب",
+      "currentTime": "الوقت الحالي",
+      "today": "اليوم",
+      "attendanceStatus": {
+        "markPresent": "تعيين كحاضر",
+        "timeLeft": "الوقت المتبقي",
+        "attendanceProgress": "الحضور"
+      },
+      "metrics": {
+        "averageHours": "معدل الساعات",
+        "averageCheckIn": "معدل الدخول",
+        "onTimeArrival": "الوصول في الوقت المحدد",
+        "averageCheckOut": "معدل الخروج"
+      },
+      "myAttendance": {
+        "title": "حضوري",
+        "comparisonText": "مقارنة بآخر شهر"
+      },
+      "myLeave": {
+        "title": "إجازاتي",
+        "applyForLeaves": "طلب إجازة",
+        "leaveStatuses": {
+          "approved": "مؤكد",
+          "pending": "معلق",
+          "rejected": "مرفوض"
+        }
+      },
+      "consumedLeaveType": {
+        "title": "نوع الإجازة المستهلكة",
+        "notAvailable": "N/A"
+      },
+      "tasks": {
+        "title": "المهام",
+        "pending": "معلق",
+        "viewAll": "عرض الكل",
+        "priorityLabels": {
+          "high": "عالي",
+          "medium": "متوسط",
+          "low": "منخفض"
+        }
+      }
+    }
+  }
+}
